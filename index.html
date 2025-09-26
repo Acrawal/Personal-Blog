@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ömer Said Karakuş | Kişisel Blog</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; color:#222; }
+    nav { background:#0b76ef; padding:10px; }
+    nav ul { list-style:none; margin:0; padding:0; display:flex; gap:10px; }
+    nav ul li { display:inline; }
+    nav ul li a { color:white; text-decoration:none; padding:6px 12px; }
+    nav ul li a:hover { background:rgba(255,255,255,0.2); border-radius:4px; }
+    section { padding:20px; max-width:800px; margin:20px auto; background:white; border-radius:8px; }
+    h1,h2,h3,h4 { margin-top:0; }
+    .media { margin-top:12px; }
+    .project-images { display:flex; gap:8px; flex-wrap:wrap; }
+    .project-images img { height: 28%; width:28%; border-radius:8px; }
+    iframe { border-radius:8px; margin-top:8px; width:100%; height:400px; }
+    footer { text-align:center; padding:12px; background:#ddd; margin-top:20px; }
+    .social-links { margin-top:8px; }
+    .social-links a { color:#0b76ef; text-decoration:none; margin-right:10px; }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+  <ul>
+    <li><a href="#hakkimda">Hakkımda</a></li>
+    <li><a href="#projeler">Projeler</a></li>
+    <li><a href="#medya">Medya</a></li>
+  </ul>
+</nav>
+
+<!-- Hakkımda -->
+<section id="hakkimda">
+  <h1>Ömer Said Karakuş</h1>
+  <p><strong>Frontend Geliştirici | Bursa</strong></p>
+  <p>Merhaba! Ben Ömer Said Karakuş. Şu anda <strong>Süleyman Demirel Üniversitesi</strong> Bilgisayar Mühendisliği 3. sınıf öğrencisiyim ve <strong>Bursa</strong>'da yaşıyorum. Flutter kullanarak mobil uygulama geliştirme üzerine çalışıyorum ve çeşitli projelerde aktif rol aldım. Bunlardan biri, Teknofest 2025 <strong>Psikolojide Teknolojik Uygulamalar</strong> kategorisinde katıldığımız projemizdir; bu projede kullanıcıların duygudurumlarını takip etmeyi, analizler sunmayı ve kullanıcıya özel aktiviteler önermeyi hedefledik.</p>
+  <p>Ayrıca üniversitede <strong>Endkal Kulübü</strong>'nde aktif olarak yer aldım ve ekip çalışmaları, proje yönetimi ve yazılım geliştirme süreçlerinde deneyim kazandım. Frontend geliştirme, Flutter, Dart, Firebase ve UX/UI tasarımı alanlarında kendimi geliştirmeye devam ediyorum. Bu site, yaptığım projeleri, katıldığım yarışmaları ve geliştirdiğim yetenekleri paylaşmak için hazırlandı. Hedefim, kullanıcı deneyimini ön planda tutan mobil uygulamalar geliştirmek ve teknolojiyi psikoloji alanında faydalı bir şekilde kullanmak.</p>
+  <p>📧 <a href="mailto:omersaid058@gmail.com">omersaid058@gmail.com</a></p>
+  <div class="social-links">
+    <a href="https://github.com/Acrawal" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/%C3%B6mer-said-karaku%C5%9F-3880b52a6" target="_blank">LinkedIn</a>
+  </div>
+</section>
+
+<!-- Projeler -->
+<section id="projeler">
+  <h2>Projeler</h2>
+  <h3>CalMind</h3>
+  <p>CalMind, psikolojik destek ve duygu takibi odaklı bir mobil uygulamadır. Kullanıcılar günlük duygu girdilerini kaydedebilir, otomatik duygu sınıflandırması ve analiz raporları alabilir. Ayrıca uygulama, kullanıcıya özel aktiviteler önerir, topluluk etkileşimi sağlar ve uzman psikolog desteği sunar. Uygulama Flutter ile geliştirilmiş olup Firebase altyapısı kullanılarak kullanıcı verileri güvenli bir şekilde saklanmaktadır. UI/UX tasarımları kullanıcı deneyimini ön planda tutacak şekilde Figma ile tasarlanmıştır.</p>
+  
+  <div class="media project-images">
+    <img src="assets/images/page1.png" alt="CalMind ekran görüntüsü 1">
+    <img src="assets/images/page2.png" alt="CalMind ekran görüntüsü 2">
+    <img src="assets/images/page3.png" alt="CalMind ekran görüntüsü 3">
+  </div>
+</section>
+
+<!-- Medya -->
+<section id="medya">
+  <h2>Medya</h2>
+  <div class="media">
+    <h4>Teknofest Röportajı</h4>
+    <iframe 
+      src="https://www.youtube.com/embed/joCG7GxaUUA" 
+      title="Teknofest Röportajı" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<!-- Özet / Proje Özeti -->
+<section style="padding:20px; max-width:800px; margin:20px auto; background:#e8f0fe; border-radius:8px;">
+  <h2>Proje Özeti</h2>
+  <p>CalMind projesi kapsamında psikolojik uygulama geliştirdik. Kullanıcılar duygudurumlarını takip edebilir, analiz raporları alabilir ve kişiselleştirilmiş aktivitelerle desteklenir. Ayrıca topluluk etkileşimi ve uzman psikolog desteği ile uygulamanın kapsamı genişletildi. Bu proje Teknofest 2025'te Psikolojide Teknolojik Uygulamalar kategorisinde sunuldu ve ekip olarak prototip geliştirme, kullanıcı testi ve teknik dokümantasyon çalışmalarında aktif rol aldık.</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  © 2025 Ömer Said Karakuş | 5318887100
+</footer>
+
+<!-- Sayfa içi kaydırma -->
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click', e=>{
+      e.preventDefault();
+      const id = a.getAttribute('href').slice(1);
+      const el = document.getElementById(id);
+      if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+</script>
+
+</body>
+</html>
